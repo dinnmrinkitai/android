@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="linear.com.nida.Home">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button1"
+        android:text="Linear Layout"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button2"
+        android:text="Relative Layout"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button3"
+        android:text="Tabel Layout"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button4"
+        android:text="Tampilan Gambar"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button5"
+        android:text="Auto Complete"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button6"
+        android:text="Kotak Dialog"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button7"
+        android:text="Picker"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button8"
+        android:text="Check Box"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button9"
+        android:text="Radio Button"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button10"
+        android:text="Selection Widget"
+        android:textSize="18px">
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:id="@+id/Button11"
+        android:text="Service Sederhana"
+        android:textSize="18px">
+    </Button>
+    </LinearLayout>
+
+</ScrollView>
