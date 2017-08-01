@@ -132,5 +132,15 @@ public class Home extends AppCompatActivity {
                 startActivityForResult(myIntent, 0);
             }
         });
+
+        Button next13 = (Button) findViewById(R.id.Button12);
+        next13.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View bebek) {
+                Intent myIntent = new
+                        Intent(bebek.getContext(), playingAudio.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

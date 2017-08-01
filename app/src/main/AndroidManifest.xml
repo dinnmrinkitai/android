@@ -25,7 +25,8 @@
         <activity android:name=".checkBox" />
         <activity android:name=".radioButton" />
         <activity android:name=".seleksi" />
-        <activity android:name=".ServiceSederhana"></activity>
+        <activity android:name=".ServiceSederhana" />
+        <activity android:name=".playingAudio"></activity>
     </application>
 
 </manifest>
